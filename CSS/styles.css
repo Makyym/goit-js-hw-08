@@ -1,0 +1,26 @@
+body {
+    background-color: #FFFFFF;
+}
+
+img {
+    width: 360px;
+    height: 200px;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    gap: 24px 24px;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 24px calc((100% - 1128px) / 2);
+}
+
+.gallery-link {
+    display: inline-block;
+    height: 0;
+}
+
+.gallery-item {
+    height: 200px;
+}
